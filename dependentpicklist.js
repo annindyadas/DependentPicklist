@@ -6,7 +6,7 @@ import {getPicklistValues} from 'lightning/uiObjectInfoApi';
 import Category_FIELD from '@salesforce/schema/Account.Category__c';
 import SubCategory_FIELD from '@salesforce/schema/Account.SubCategory__c';
 
-export default class Testdependentpicklist extends LightningElement {
+export default class Dependentpicklist extends LightningElement {
     @wire(getObjectInfo, {objectApiName: ACCOUNT_OBJECT })
     accountInfo;
 
